@@ -43,4 +43,7 @@ public class EmployeeController {
         return new ResponseEntity<Employee>(employeeService.updateEmployee(employee,id),HttpStatus.OK);
     }
 
+    //build delete employee REST API
+
+
 }
